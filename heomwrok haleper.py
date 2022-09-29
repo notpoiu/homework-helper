@@ -16,7 +16,7 @@ def MainLoop():
     awnser = input("Type your awnser: ")
     
     CorrectedAwsner = awnsers[number - 1]
-    if(String.lower(awnser) == String.lower(CorrectedAwsner) or String.lower(awnser) in String.lower(CorrectedAwsner)):
+    if(awnser == CorrectedAwsner or awnser in CorrectedAwsner):
         print(" ")
         print("you got it right!")
     else:
