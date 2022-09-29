@@ -5,12 +5,9 @@ awnsers= ["mer du labrador","mer du beaufort","baie d'hudson","golfe du saint-la
 
 print("Revision Helper - Geographie")
 print("made by nathan :o")
+print("if you want to quit press CTRL + C")
 print(" ")
 
-afterhowmuch = input(f"how much times do you want to repeat this untill i interup\nyou to ask you to coninue? Type here: ")
-afterhowmuchint = int(afterhowmuch)
-
-index = 0
 
 def MainLoop():
     number = random.choice(numbers)
@@ -32,13 +29,5 @@ def MainLoop():
 
 
 while True:
-    if(index is afterhowmuchint):
-        print("interupted!")
-        print("if you want to stop the helper then press ctrl + c or else awnser this below:")
-        print(" ")
-        afterhowmuch = input(f"how much times do you want to repeat this untill i interup\nyou to ask you to coninue? Type here: ")
-        afterhowmuchint = int(afterhowmuch)
-    else:
-        index += 1
 
     MainLoop()
