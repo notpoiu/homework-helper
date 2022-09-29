@@ -38,5 +38,7 @@ while True:
         print(" ")
         afterhowmuch = input(f"how much times do you want to repeat this untill i interup\nyou to ask you to coninue? Type here: ")
         afterhowmuchint = int(afterhowmuch)
+    else:
+        index += 1
 
     MainLoop()
